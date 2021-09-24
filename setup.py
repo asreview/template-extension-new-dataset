@@ -2,10 +2,10 @@ from setuptools import setup
 from setuptools import find_namespace_packages
 
 setup(
-    name='asreview-template-model-extension',
+    name='asreview-template-dataset-extension',
     version='0.1',
-    description='Example classifier extension',
-    url='https://github.com/asreview/asreview',
+    description='Example dataset extension',
+    url='https://github.com/asreview/template-extension-new-dataset',
     author='ASReview team',
     author_email='asreview@uu.nl',
     classifiers=[
@@ -19,25 +19,17 @@ setup(
     packages=find_namespace_packages(include=['asreviewcontrib.*']),
     python_requires='~=3.6',
     install_requires=[
-        'sklearn',
-        'asreview>=0.13'
-    ],
+        'asreview>=0.16'],
+
     entry_points={
-        'asreview.models.classifiers': [
-            'nb_example = asreviewcontrib.models.nb_default_param:NaiveBayesDefaultParamsModel',
-        ],
-        'asreview.models.feature_extraction': [
-            # define feature_extraction algorithms
-        ],
-        'asreview.models.balance': [
-            # define balance strategy algorithms
-        ],
-        'asreview.models.query': [
-            # define query strategy algorithms
+        "asreview.datasets": [
+            "newDataset = asreviewcontrib.dataset_name.your_dataset:YourDataGroup"
         ]
+
     },
+
     project_urls={
-        'Bug Reports': 'https://github.com/asreview/asreview/issues',
-        'Source': 'https://github.com/asreview/asreview/',
+        'Bug Reports': 'https://github.com/asreview/template-extension-new-dataset/issues',
+        'Source': 'https://github.com/asreview/template-extension-new-dataset/',
     },
 )
