@@ -28,12 +28,12 @@ and replace `{USER_NAME}` and `{REPO_NAME}` by your own details.
 ## Usage
 
 The new dataset is defined in
-[`asreviewcontrib\dataset_name\your_dataset.py`](asreviewcontrib\dataset_name\your_dataset.py) 
+[`asreviewcontrib/dataset_name/your_dataset.py`](asreviewcontrib\dataset_name\your_dataset.py) 
 and can be used as a new dataset.
 
-`setup.py` contains the code needed for integration into ASReview.
+`/setup.py` contains the code needed for integration into ASReview.
 
-`__init__.py` contains directions for loading the dataset module.
+`asreviewcontrib/dataset_name/__init__.py` contains directions for loading the dataset module.
 
 ## License
 
