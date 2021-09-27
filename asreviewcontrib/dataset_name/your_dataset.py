@@ -20,8 +20,8 @@ class YourDataGroup(BaseDataGroup):
             ],
             "year": 2021,
             "topic": "Your topic",
-            "final_inclusions": true,
-            "title_abstract_inclusions": false
+            "final_inclusions": True,
+            "title_abstract_inclusions": False
         }
         )
 
