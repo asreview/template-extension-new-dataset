@@ -2,11 +2,11 @@ from setuptools import setup
 from setuptools import find_namespace_packages
 
 setup(
-    name='asreview-template-dataset-extension',
-    version='0.1',
-    description='Example dataset extension',
-    url='https://github.com/asreview/template-extension-new-dataset',
-    author='ASReview team',
+    name='asreview-filled-example-dataset-extension',
+    version='0.2',
+    description='Filled example dataset extension',
+    url='https://github.com/JTeijema/Test-Dataset-Extension',
+    author='JTeijema',
     author_email='asreview@uu.nl',
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -24,7 +24,7 @@ setup(
 
     entry_points={
         "asreview.datasets": [
-            "newDataset = asreviewcontrib.dataset_name.your_dataset:YourDataGroup"
+            "filledDataSet = asreviewcontrib.dataset_name.your_dataset:YourDataGroup"
         ]
 
     },
