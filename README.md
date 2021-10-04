@@ -10,7 +10,7 @@ on ReadTheDocs for more information on writing extensions.
 ## Getting started
 
 Click the `Use this template` button and add/modify the algorithms. Install 
-your new classifier with
+your new dataset with
 
 ```bash
 pip install .
