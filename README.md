@@ -28,7 +28,7 @@ and replace `{USER_NAME}` and `{REPO_NAME}` by your own details.
 ## Usage
 
 The new dataset is defined in
-[`asreviewcontrib/dataset_name/your_dataset.py`](asreviewcontrib\dataset_name\your_dataset.py)
+[`asreviewcontrib/dataset_name/your_dataset.py`](https://github.com/asreview/template-extension-new-dataset/blob/3fbbcc26c73cfd91aa7e47bd89bfca076ea1e981/asreviewcontrib/dataset_name/your_dataset.py)
 and can be used as a new dataset. 
 
 By supplying the `from_config()` method with a
