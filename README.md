@@ -4,7 +4,7 @@ ASReview has support for extensions, which enable you to seemlessly integrate
 your own programs with the ASReview framework. This template can extent ASReview
 with new data.
 
-See the section [Extensions](https://asreview.readthedocs.io/en/latest/API/extensions_dev.html?highlight=extension) 
+See the section [Extensions](https://asreview.readthedocs.io/en/latest/extensions_dev.html) 
 on ReadTheDocs for more information on writing extensions.
 
 ## Getting started
