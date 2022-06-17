@@ -19,7 +19,7 @@ setup(
     packages=find_namespace_packages(include=['asreviewcontrib.*']),
     python_requires='~=3.6',
     install_requires=[
-        'asreview>=0.16',
+        'asreview>=1.0',
     ],
 
     entry_points={
