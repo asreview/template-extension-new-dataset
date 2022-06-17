@@ -14,7 +14,7 @@ class example_dataset_local(BaseDataSet):
     def __init__(self):
         super().__init__(
             dataset_id="example_dataset_local",
-            filepath=Path(self.__filepath__, 'data', 'your_dataset.csv'),
+            filepath=str(Path(self.__filepath__, 'data', 'your_dataset.csv')),
             title="Example dataset (local)",
             description="This is an example dataset that is stored locally.",
             authors=None,
