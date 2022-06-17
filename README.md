@@ -50,7 +50,9 @@ following files:
 
 - Add your dataset to the `data` folder of the template.
 
-For advanced usage, check out [`BaseDataGroup`](https://asreview.readthedocs.io/en/latest/reference.html#asreview.datasets.BaseDataGroup) at the documentation.
+For advanced usage- (e.g. adding multiple groups), check out the
+[`BaseDataGroup`](https://asreview.readthedocs.io/en/latest/reference.html#asreview.datasets.BaseDataGroup)
+in the example and at the documentation.
 
 ## License
 

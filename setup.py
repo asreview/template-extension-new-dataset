@@ -24,7 +24,10 @@ setup(
 
     entry_points={
         "asreview.datasets": [
-            "newDataset = asreviewcontrib.dataset_name.your_dataset:YourDataGroup"
+            "example_dataset_local = asreviewcontrib.dataset_name.your_dataset:example_dataset_local"
+            "example_dataset_remote = asreviewcontrib.dataset_name.your_dataset:example_dataset_remote"
+            "example_dataset_group = asreviewcontrib.dataset_name.your_dataset:example_dataset_group"
+            "example_dataset_group_2 = asreviewcontrib.dataset_name.your_dataset:example_dataset_group_2"
         ]
 
     },
