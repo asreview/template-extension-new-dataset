@@ -30,7 +30,7 @@ and replace `{USER_NAME}` and `{REPO_NAME}` by your own details.
 ## Usage
 
 The new dataset is defined in
-[`asreviewcontrib/dataset_name/your_dataset.py`](asreviewcontrib\dataset_name\your_dataset.py)
+[`asreviewcontrib/dataset_name/your_dataset.py`](asreviewcontrib/dataset_name/your_dataset.py)
 and can be used as a new dataset. 
 
 By supplying the `from_config()` method with a
