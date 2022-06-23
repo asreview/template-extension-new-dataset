@@ -34,12 +34,13 @@ and replace `{USER_NAME}` and `{REPO_NAME}` by your own details.
 
 Adding a dataset to ASReview is done by extending the
 [`BaseDataSet`](https://asreview.readthedocs.io/en/latest/reference.html#BaseDataSet)
-class, adding it to a dataset group and finally, adding it to ASReview. To use
+class, adding it to a `BaseDataGroup` and finally, adding it to ASReview. To use
 this template, fork it and modify the following files:
 
 - A `BaseDataSet` object and a `BaseDataGroup` are defined in
     [`asreviewcontrib/dataset_name/your_dataset.py`](asreviewcontrib/dataset_name/your_dataset.py).
-    Modify this file to add your own datasets.
+    Modify this file to add your own datasets. The `BaseDataSet` class should
+    always be added to a `BaseDataGroup` object.
 
 - Adding your `BaseDataGroup` object to ASReview is done via the
     [`asreviewcontrib/dataset_name/__init__.py`](asreviewcontrib/dataset_name/__init__.py)
@@ -50,7 +51,7 @@ this template, fork it and modify the following files:
 
 - Add your dataset to the `data` folder of the template.
 
-For advanced usage- (e.g. adding multiple groups), check out the
+For advanced usage, check out the
 [`BaseDataGroup`](https://asreview.readthedocs.io/en/latest/reference.html#asreview.datasets.BaseDataGroup)
 in the example and the documentation.
 
