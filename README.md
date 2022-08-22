@@ -1,8 +1,6 @@
 # Template for extending ASReview with a new dataset
 
-<a href="https://github.com/asreview/asreview"><img
-src="https://img.shields.io/badge/ASReview-v1.0-%23ffcb05" alt="ASReview v1.0"
-/></a>
+![Badge](https://img.shields.io/badge/ASReview-v1.0-%23ffcb05)
 
 ASReview has support for extensions, which enable you to seemlessly integrate
 your own programs with the ASReview framework. This template can extent ASReview
