@@ -2,7 +2,7 @@
 
 ![Badge](https://img.shields.io/badge/ASReview-v1.0-%23ffcb05)
 
-ASReview has support for extensions, which enable you to seemlessly integrate
+ASReview has support for extensions, which enable you to seamlessly integrate
 your own programs with the ASReview framework. This template can extent ASReview
 with new data.
 
@@ -25,8 +25,7 @@ or
 pip install git+https://github.com/{USER_NAME}/{REPO_NAME}.git
 ```
 
-and replace `{USER_NAME}` and `{REPO_NAME}` by your own details. 
-
+and replace `{USER_NAME}` and `{REPO_NAME}` by your own details.
 
 ## Usage
 

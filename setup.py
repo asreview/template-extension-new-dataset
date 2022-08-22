@@ -24,7 +24,7 @@ setup(
 
     entry_points={
         "asreview.datasets": [
-            "example_dataset_group = asreviewcontrib.dataset_name.your_dataset:example_dataset_group", # noqa
+            "example_dataset_group = asreviewcontrib.dataset_name.your_dataset:ExampleDatasetGroup",
         ]
 
     },

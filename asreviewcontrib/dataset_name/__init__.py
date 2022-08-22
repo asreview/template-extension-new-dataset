@@ -1,1 +1,1 @@
-from asreviewcontrib.dataset_name.your_dataset import example_dataset_group
+from asreviewcontrib.dataset_name.your_dataset import ExampleDatasetGroup
