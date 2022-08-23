@@ -58,16 +58,3 @@ class ExampleDatasetGroup(BaseDataGroup):
     def __init__(self):
         """Initialize the dataset group."""
         super().__init__(ExampleDatasetLocal(), ExampleDatasetRemote())
-
-
-class ExampleDatasetGroupTwo(BaseDataGroup):
-    """This is an example dataset group."""
-
-    group_id = "example_dataset_group"
-    description = "Example dataset group"
-
-    def __init__(self):
-        """Initialize the dataset group."""
-        super().__init__()
-        self.append(ExampleDatasetLocal())
-        self.append(ExampleDatasetRemote())
