@@ -1,9 +1,10 @@
 from setuptools import setup
 from setuptools import find_namespace_packages
+from glob import glob
 
 setup(
     name='asreview-template-dataset-extension',
-    version='0.1',
+    version='1.0',
     description='Example dataset extension',
     url='https://github.com/asreview/template-extension-new-dataset',
     author='ASReview team',
@@ -17,14 +18,17 @@ setup(
     ],
     keywords='systematic review',
     packages=find_namespace_packages(include=['asreviewcontrib.*']),
+    data_files=[('Lib/site-packages/asreviewcontrib/dataset_name/data',
+                 glob('data/*'))],
     python_requires='~=3.6',
     install_requires=[
         'asreview>=1.0',
     ],
-
     entry_points={
         "asreview.datasets": [
-            "example_dataset_group = asreviewcontrib.dataset_name.your_dataset:ExampleDatasetGroup",
+            "example_dataset_group = asreviewcontrib.dataset_name:ExampleDatasetGroup", # noqa
+            "example_dataset_local = asreviewcontrib.dataset_name:ExampleDatasetLocal", # noqa
+            "example_dataset_remote = asreviewcontrib.dataset_name:ExampleDatasetRemote", # noqa
         ]
 
     },
