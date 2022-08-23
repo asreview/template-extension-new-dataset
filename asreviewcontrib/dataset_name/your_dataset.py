@@ -16,10 +16,12 @@ class ExampleDatasetLocal(BaseDataSet):
         """Initialize the dataset."""
         super().__init__(
             dataset_id="example_dataset_local",
-            filepath=str(Path(__file__).parent, 'data', 'your_dataset.csv'),
+            filepath=str(Path(Path(__file__).parent,
+                              'data',
+                              'your_dataset.csv')),
             title="Example dataset (local)",
             description="This is an example dataset that is stored locally.",
-            authors=None,
+            authors='Teijema, J.J. (2022)',
             topic=None,
             link=None,
             reference=None,
@@ -39,7 +41,7 @@ class ExampleDatasetRemote(BaseDataSet):
             filepath='https://raw.githubusercontent.com/asreview/systematic-review-datasets/master/datasets/van_de_Schoot_2017/output/van_de_Schoot_2017.csv',  # noqa
             title="Example dataset (remote)",
             description="This is an example dataset that is stored remotely.",
-            authors='van de Schoot, J. (2017)',
+            authors='Teijema, J.J. (2022)',
             topic=None,
             link=None,
             reference=None,
@@ -52,7 +54,7 @@ class ExampleDatasetRemote(BaseDataSet):
 class ExampleDatasetGroup(BaseDataGroup):
     """This is an example dataset group."""
 
-    group_id = "example_dataset_group"
+    group_id = "example_group"
     description = "Example dataset group"
 
     def __init__(self):
