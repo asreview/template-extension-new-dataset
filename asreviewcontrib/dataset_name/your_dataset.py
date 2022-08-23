@@ -17,9 +17,7 @@ class ExampleDatasetGroup(BaseDataGroup):
 
         example_dataset_local = BaseDataSet(
                 dataset_id="example_dataset_local",
-                filepath=str(Path(Path(__file__).parent,
-                                'data',
-                                'your_dataset.csv')),
+                filepath=str(Path(Path(__file__).parent, 'data', 'your_dataset.csv')),  # noqa
                 title="Example dataset (local)",
                 description="This is an example dataset that is stored locally.",
                 authors='Teijema, J.J. (2022)',
