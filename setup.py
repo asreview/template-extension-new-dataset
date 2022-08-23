@@ -3,7 +3,7 @@ from setuptools import find_namespace_packages
 
 setup(
     name='asreview-template-dataset-extension',
-    version='0.1',
+    version='1.0',
     description='Example dataset extension',
     url='https://github.com/asreview/template-extension-new-dataset',
     author='ASReview team',
@@ -17,20 +17,19 @@ setup(
     ],
     keywords='systematic review',
     packages=find_namespace_packages(include=['asreviewcontrib.*']),
+    include_package_data=True,
     python_requires='~=3.6',
     install_requires=[
-        'asreview>=0.16',
+        'asreview>=1.0',
     ],
-
     entry_points={
         "asreview.datasets": [
-            "newDataset = asreviewcontrib.dataset_name.your_dataset:YourDataGroup"
+            "example_group = asreviewcontrib.dataset_name:ExampleDatasetGroup", # noqa
         ]
 
     },
-
     project_urls={
-        'Bug Reports': 'https://github.com/asreview/template-extension-new-dataset/issues',
-        'Source': 'https://github.com/asreview/template-extension-new-dataset/',
+        'Bug Reports': 'https://github.com/asreview/template-extension-new-dataset/issues',  # noqa
+        'Source': 'https://github.com/asreview/template-extension-new-dataset/',  # noqa
     },
 )
