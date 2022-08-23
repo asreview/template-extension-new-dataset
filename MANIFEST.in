@@ -1,0 +1,4 @@
+recursive-include asreviewcontrib/dataset_name/data *.csv
+recursive-include asreviewcontrib/dataset_name/data *.txt
+recursive-include asreviewcontrib/dataset_name/data *.tab
+recursive-include asreviewcontrib/dataset_name/data *.ris

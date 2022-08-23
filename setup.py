@@ -1,6 +1,5 @@
 from setuptools import setup
 from setuptools import find_namespace_packages
-from glob import glob
 
 setup(
     name='asreview-template-dataset-extension',
@@ -18,8 +17,7 @@ setup(
     ],
     keywords='systematic review',
     packages=find_namespace_packages(include=['asreviewcontrib.*']),
-    data_files=[('Lib/site-packages/asreviewcontrib/dataset_name/data',
-                 glob('data/*'))],
+    include_package_data=True,
     python_requires='~=3.6',
     install_requires=[
         'asreview>=1.0',
