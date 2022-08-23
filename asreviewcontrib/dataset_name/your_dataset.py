@@ -15,7 +15,7 @@ class ExampleDatasetGroup(BaseDataGroup):
     def __init__(self):
         """Initialize the dataset group."""
 
-        ExampleDatasetLocal = BaseDataSet(
+        example_dataset_local = BaseDataSet(
                 dataset_id="example_dataset_local",
                 filepath=str(Path(Path(__file__).parent,
                                 'data',
@@ -31,7 +31,7 @@ class ExampleDatasetGroup(BaseDataGroup):
                 year='2022'
             )
 
-        ExampleDatasetRemote = BaseDataSet(
+        example_dataset_remote = BaseDataSet(
                 dataset_id="example_dataset_remote",
                 filepath='https://raw.githubusercontent.com/asreview/systematic-review-datasets/master/datasets/van_de_Schoot_2017/output/van_de_Schoot_2017.csv',  # noqa
                 title="Example dataset (remote)",
@@ -45,4 +45,4 @@ class ExampleDatasetGroup(BaseDataGroup):
                 year=None
             )
 
-        super().__init__(ExampleDatasetLocal, ExampleDatasetRemote)
+        super().__init__(example_dataset_local, example_dataset_remote)
