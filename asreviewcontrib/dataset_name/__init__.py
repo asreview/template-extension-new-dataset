@@ -1,3 +1,1 @@
 from asreviewcontrib.dataset_name.your_dataset import ExampleDatasetGroup
-from asreviewcontrib.dataset_name.your_dataset import ExampleDatasetLocal
-from asreviewcontrib.dataset_name.your_dataset import ExampleDatasetRemote
