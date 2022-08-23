@@ -23,7 +23,7 @@ class ExampleDatasetLocal(BaseDataSet):
             description="This is an example dataset that is stored locally.",
             authors='Teijema, J.J. (2022)',
             topic='example datasets',
-            link=None,
+            link='ASReview.ai',
             reference=None,
             img_url=None,
             license='MIT',
