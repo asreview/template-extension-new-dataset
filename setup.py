@@ -19,7 +19,7 @@ setup(
     keywords='systematic review',
     packages=find_namespace_packages(include=['asreviewcontrib.*']),
     data_files=[('Lib/site-packages/asreviewcontrib/dataset_name/data',
-                 glob('data/*'))],
+                 glob('asreviewcontrib/dataset_name/data/*'))],
     python_requires='~=3.6',
     install_requires=[
         'asreview>=1.0',
