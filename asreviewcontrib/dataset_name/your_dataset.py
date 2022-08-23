@@ -22,12 +22,12 @@ class ExampleDatasetLocal(BaseDataSet):
             title="Example dataset (local)",
             description="This is an example dataset that is stored locally.",
             authors='Teijema, J.J. (2022)',
-            topic=None,
+            topic='example datasets',
             link=None,
             reference=None,
             img_url=None,
-            license=None,
-            year=None
+            license='MIT',
+            year='2022'
         )
 
 
