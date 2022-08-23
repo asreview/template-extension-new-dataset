@@ -1,1 +1,1 @@
-recursive-include asreviewcontrib/dataset_name/data *.*
+recursive-include asreviewcontrib/*/data *.*
