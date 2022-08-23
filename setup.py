@@ -28,9 +28,8 @@ setup(
         ]
 
     },
-
     project_urls={
-        'Bug Reports': 'https://github.com/asreview/template-extension-new-dataset/issues',
-        'Source': 'https://github.com/asreview/template-extension-new-dataset/',
+        'Bug Reports': 'https://github.com/asreview/template-extension-new-dataset/issues', # noqa
+        'Source': 'https://github.com/asreview/template-extension-new-dataset/', # noqa
     },
 )
